@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Water Storage Visualization</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Water Storage Visualization</h1>
+        <div>
+            <label for="blockHeights">Enter Block Heights (comma-separated):</label>
+            <input type="text" id="blockHeights" placeholder="e.g. 0,4,0,0,0,6,0,6,4,0">
+            <button onclick="generateChart()">Generate Chart</button>
+        </div>
+        <div id="chart-container">
+        </div>
+        <p id="waterUnits">Water Units: </p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
